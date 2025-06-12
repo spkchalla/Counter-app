@@ -1,0 +1,103 @@
+
+.container{
+    text-align: center;
+    border: 2px solid #333;
+    padding-top: 25px;
+    padding-bottom: 94px;
+    margin: auto;
+    margin-top: 60px;
+    max-width: 400px;
+    border-radius: 12px;
+    background-color: rgb(180, 232, 248);
+    box-shadow: 0 4px 12px rgba(99, 228, 228, 0.4);
+    
+
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+.buttonGroup{
+    border: 2px solid #333;
+    /* margin: 50px 850px; */
+    margin: auto;
+    max-width: fit-content;
+    border-radius: 10px;
+    background-color: #f2f545;
+    box-shadow: 0 4px 12px rgba(126, 230, 112, 0.4);
+
+}
+.add{
+    padding: 10px 14px;
+    margin: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: #49df99;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sub{
+    padding: 10px 16px;
+    margin: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: #ff6262;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset{
+    padding: 10px 16px;
+    margin: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: lightcyan;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.themeToggle {
+  padding: 8px 16px;
+  margin: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f6f876;
+  color: black;
+  font-size: 15px;
+  font-weight: normal;
+  border-radius: 8px;
+  border: 2px solid #333;
+  box-shadow: 0 4px 12px rgba(234, 250, 142, 0.4); /* reddish glow */
+}
+
+.countBox{
+    /* margin: 0px 800px ; */
+    margin: auto;
+    max-width: fit-content;
+    padding: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-decoration: solid;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #ff7be9;
+    box-shadow: 0 4px 12px rgba(255, 100, 100, 0.4); /* reddish glow */
+
+
+}
+.blank{
+    margin-top: 50px;
+}
+body.Light {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+body.Dark {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+body{
+    transition: background-color 0.9s ease, color 0.4s ease;
+}
